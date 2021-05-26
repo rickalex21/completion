@@ -28,6 +28,7 @@ let g:UltiSnipsJumpForwardTrigger = '<c-j>'
 
 
 lua <<EOF
+local buffers = {'lua','vim'}
 	require'compe'.setup {
 		enabled          = true,
 		autocomplete     = true,
